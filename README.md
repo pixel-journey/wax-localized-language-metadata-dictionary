@@ -1,7 +1,7 @@
 # Fall back to en
 
 **Trust label:** `educational-reference`  
-**Catalog:** [wax-ecosystem-blueprint-catalog](https://github.com/pixel-journey/wax-ecosystem-blueprint-catalog)
+**Catalog:** `wax-ecosystem-blueprint-catalog` (private index; not this public course)
 
 es is Roble. A blank fr uses Oak and reports locale en. Nothing is fetched.
 

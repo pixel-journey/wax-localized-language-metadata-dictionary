@@ -7,6 +7,8 @@ describe("phrase", () => {
   it("uses the locale and falls back to en", () => {
     expect(phrase(table, "es")).toEqual({ text: "Roble", locale: "es" });
     expect(phrase(table, "fr")).toEqual({ text: "Oak", locale: "en" });
+    expect(phrase(table, "de")).toEqual({ text: "Oak", locale: "en" });
     expect(() => phrase({ en: " " }, "en")).toThrow(/en/);
+    expect(() => phrase(table, "ES")).toThrow(/locale/);
   });
 });
